@@ -8,7 +8,7 @@ Nodejs wrapper that communicates with the Telegram API.
 
 Underlyingly makes use of telegram-cli (https://github.com/vysheng/tg).
 
-##Installation
+## Installation
 
 1. To run it locally run the following command:
 
@@ -26,7 +26,7 @@ Underlyingly makes use of telegram-cli (https://github.com/vysheng/tg).
 
  This will compile the code in the included tg submodule into the `tg/bin` directory.
 
-##Running it the first time
+## Running it the first time
 
 While in the root of this project, first run the binary in the `tg/bin` directory by doing:
 
@@ -47,6 +47,6 @@ tgapi.connect(function(connection){
 ```
 
 
-##Windows
+## Windows
 
 Haven't tested this for Windows (yet)
